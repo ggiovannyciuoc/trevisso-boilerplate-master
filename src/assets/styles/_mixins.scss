@@ -1,0 +1,13 @@
+@mixin flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @mixin media-query($breakpoint) {
+    @media (max-width: $breakpoint) {
+      @content;
+    }
+  }
+  
